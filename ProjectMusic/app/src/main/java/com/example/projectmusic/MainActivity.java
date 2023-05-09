@@ -139,9 +139,5 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-        startService(new Intent(this, MusicService.class));
-    }
+
 }
